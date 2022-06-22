@@ -1,0 +1,11 @@
+inherited Form1_NmXhdpiPh: TForm1_NmXhdpiPh
+  ClientHeight = 615
+  DesignerMasterStyle = 0
+  inherited InsertText: TEdit
+    Size.Height = 32.000000000000000000
+  end
+  inherited ItemsList: TListBox
+    Viewport.Width = 377.000000000000000000
+    Viewport.Height = 329.000000000000000000
+  end
+end

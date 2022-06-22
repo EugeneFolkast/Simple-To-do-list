@@ -1,0 +1,45 @@
+//---------------------------------------------------------------------------
+
+#include <fmx.h>
+#pragma hdrstop
+
+#include "Unit1.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.fmx"
+#pragma resource ("*.LgXhdpiPh.fmx", _PLAT_ANDROID)
+#pragma resource ("*.Windows.fmx", _PLAT_MSWINDOWS)
+
+TForm1 *Form1;
+//---------------------------------------------------------------------------
+__fastcall TForm1::TForm1(TComponent* Owner)
+	: TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::AddButtonClick(TObject *Sender)
+{
+    EnterText->TextSettings->FontColor = TAlphaColor(claBlack);
+
+	String input_string = EnterText->Text;
+	String wrong_str = "You're trying to add an empty field!!!";
+
+	if (input_string != "") {
+        NoteList->Items->Add(input_string);
+
+	}
+	else
+	{
+		EnterText->Text = wrong_str;
+		EnterText->TextSettings->FontColor = TAlphaColor(claRed);
+	}
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::NoteListItemClick(TCustomListBox * const Sender, TListBoxItem * const Item)
+
+{
+	int indexOfSelectedItem = Item->Index;
+
+	NoteList->Items->Delete(indexOfSelectedItem);
+}
+

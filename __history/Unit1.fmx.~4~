@@ -1,0 +1,50 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu, biMinimize, biHelp]
+  BorderStyle = Single
+  Caption = 'Simple To-Do List'
+  ClientHeight = 400
+  ClientWidth = 400
+  Position = Designed
+  FormFactor.Width = 400
+  FormFactor.Height = 400
+  FormFactor.Devices = [Desktop]
+  ShowHint = False
+  DesignerMasterStyle = 0
+  object InsertText: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 0
+    Text = 'Add some note...'
+    Position.X = 8.000000000000000000
+    Position.Y = 24.000000000000000000
+    Size.Width = 241.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object AddButton: TButton
+    Position.X = 264.000000000000000000
+    Position.Y = 25.000000000000000000
+    Size.Width = 121.000000000000000000
+    Size.Height = 24.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'AddButton'
+    OnClick = AddButtonClick
+  end
+  object ItemsList: TListBox
+    Position.X = 8.000000000000000000
+    Position.Y = 56.000000000000000000
+    Size.Width = 377.000000000000000000
+    Size.Height = 329.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    DisableFocusEffect = True
+    DefaultItemStyles.ItemStyle = ''
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+    OnItemClick = ItemsListItemClick
+    Viewport.Width = 373.000000000000000000
+    Viewport.Height = 325.000000000000000000
+  end
+end

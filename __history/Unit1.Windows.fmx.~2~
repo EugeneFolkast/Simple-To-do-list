@@ -1,0 +1,17 @@
+inherited Form1_Windows: TForm1_Windows
+  ClientHeight = 480
+  ClientWidth = 640
+  DesignerMasterStyle = 3
+  inherited EnterText: TEdit
+    Size.Width = 411.000000000000000000
+    Size.Height = 149.000000000000000000
+  end
+  inherited AddButton: TButton
+    Size.Width = 339.000000000000000000
+    Size.Height = 152.000000000000000000
+  end
+  inherited NoteList: TListBox
+    Viewport.Width = 254.000000000000000000
+    Viewport.Height = 269.000000000000000000
+  end
+end

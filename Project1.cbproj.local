@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.055,B:\soft\gits\SimpleToDoList\Unit1.cpp=B:\soft\gits\test1\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.238,B:\soft\gits\SimpleToDoList\Project1.cbproj=B:\soft\gits\test1\Project1.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.055,B:\soft\gits\SimpleToDoList\Unit1.fmx=B:\soft\gits\test1\Unit1.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.433,=B:\soft\gits\test1\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.861,=B:\soft\gits\test1\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.091,B:\soft\gits\SimpleToDoList\Project1PCH1.h=B:\soft\gits\test1\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.055,B:\soft\gits\SimpleToDoList\Unit1.h=B:\soft\gits\test1\Unit1.h</Transaction>
+  </Transactions>  <ActiveMobileDevice>   <NoProfile Android="RF8M31KHJJY"/>
+  </ActiveMobileDevice>
+</BorlandProject>

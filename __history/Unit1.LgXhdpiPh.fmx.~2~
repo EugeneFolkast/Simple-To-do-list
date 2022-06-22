@@ -1,0 +1,12 @@
+inherited Form1_LgXhdpiPh: TForm1_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 3
+  inherited EnterText: TEdit
+    Size.Height = 32.000000000000000000
+  end
+  inherited NoteList: TListBox
+    Viewport.Width = 258.000000000000000000
+    Viewport.Height = 273.000000000000000000
+  end
+end

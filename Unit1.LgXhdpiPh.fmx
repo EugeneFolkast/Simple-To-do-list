@@ -1,0 +1,28 @@
+inherited Form1_LgXhdpiPh: TForm1_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  FormFactor.Devices = [Desktop, iPhone, iPad]
+  DesignerMasterStyle = 3
+  inherited InsertText: TEdit
+    Anchors = [akLeft, akTop, akRight]
+    Position.Y = 56.000000000000000000
+    Size.Width = 433.000000000000000000
+    Size.Height = 32.000000000000000000
+    KillFocusByReturn = True
+  end
+  inherited AddButton: TButton
+    Anchors = [akLeft, akTop, akRight]
+    Position.X = 8.000000000000000000
+    Position.Y = 104.000000000000000000
+    Size.Width = 433.000000000000000000
+    Size.Height = 49.000000000000000000
+  end
+  inherited ItemsList: TListBox
+    Anchors = [akLeft, akTop, akRight]
+    Position.Y = 160.000000000000000000
+    Size.Width = 433.000000000000000000
+    Size.Height = 521.000000000000000000
+    Viewport.Width = 433.000000000000000000
+    Viewport.Height = 521.000000000000000000
+  end
+end
